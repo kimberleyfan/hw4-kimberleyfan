@@ -9,8 +9,8 @@ function max(iterable, key) {
 // Q2: Flip It and Reverse It
 // Testing anonymous (arrow) function and function composition
 const reverser = // Given a list of real numbers, write an anonymous function that we can pass as the key to `max` to return the smallest element
-// ex. max([1, -2, 3], reverser) = -2
-
+    // ex. max([1, -2, 3], reverser) = -2
+    asdflajdshfnladksnfljks
 // Q3: What is This?
 // Testing knowledge of this, operators, and builtins
 const thiser = {
@@ -21,7 +21,7 @@ const thiser = {
     distance: Math.sqrt(
         // return the Euclidean distance between the point (a, b) and (x, y)
         // hint: Euclidean distance is given by sqrt((a - x)^2 + (b - y)^2) 
-    )    
+    )
 }
 
 // Q4: Objects Gworl
@@ -30,7 +30,7 @@ function changer(object, key, value) {
     let prev = object[key]
     if (Array.isArray(prev)) {
         // what to do if value associated with key is an array
-    } else if ((typeof(prev) == 'object') && (prev != null)) {
+    } else if ((typeof (prev) == 'object') && (prev != null)) {
         // what to do if value is a JSON object
     } else {
         // what to do if neither
@@ -49,7 +49,7 @@ async function promise_me(truthy) {
     console.log(3)
     console.log(4)
     const five = // how do we get the value that we saved earlier?
-    console.log(five)
+        console.log(five)
     return five
 }
 
